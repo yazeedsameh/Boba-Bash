@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e5;
+            color: #633500;
+        }
+
+        header {
+            background: #ffdc70;
+            border: 2px solid #633500;
+            margin: 15px;
+            padding: 15px;
+            box-shadow: 0 4px #d4c5a7;
+        }
+
+        header h1 {
+            margin: 5px 0;
+        }
+
+        nav {
+            margin: 15px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #633500;
+            background: #fffaf0;
+            border: 2px solid #633500;
+            padding: 12px 18px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 3px #d4c5a7;
+        }
+
+        nav a:hover {
+            background: #ffdc70;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 15px;
+        }
+
+        .box {
+            background: #fffdfa;
+            border: 2px solid #633500;
+            margin-bottom: 25px;
+            box-shadow: 0 4px #d4c5a7;
+        }
+
+        .box-title {
+            background: #ffdc70;
+            border-bottom: 2px solid #633500;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .part {
+            background: #fffaf0;
+            border: 1px solid #b89b73;
+            padding: 15px;
+            margin-top: 18px;
+        }
+
+        .part img {
+            display: block;
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+            margin-top: 12px;
+            background: #f5f0e5;
+        }
+
+        input, textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            margin: 8px 0 15px;
+            border: 2px solid #a78b67;
+            background: white;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        input[type="file"] {
+            background: #fffaf0;
+        }
+
+        button {
+            background: #ffdc70;
+            border: 2px solid #633500;
+            padding: 10px 16px;
+            color: #633500;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 3px #d4c5a7;
+        }
+
+        button:hover {
+            background: #ffca42;
+        }
+
+        .hint {
+            color: #a78b67;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #d4c5a7;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin: 10px;
+                padding: 5px;
+            }
+
+            nav a {
+                padding: 9px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Car Engine Page</h1>
+        <p>Learning about cars, one part at a time.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#parts">Engine Parts</a>
+        <a href="#add">Add Photos</a>
+    </nav>
+
+    <main>
+
+        <div class="box" id="home">
+            <div class="box-title">welcome.txt</div>
+            <div class="content">
+                <h2>Basic Parts of a Car Engine</h2>
+                <p>
+                    I made this website to learn more about car engines.
+                    An engine changes energy from fuel into movement.
+                    Here are some of its main parts.
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="box" id="parts">
+            <div class="box-title">Engine Parts</div>
+            <div class="content">
+                <h2>What are the main parts?</h2>
+
+                <div class="part">
+                    <h3>1. Piston</h3>
+                    <p>
+                        The piston moves up and down inside the cylinder.
+                        This movement helps the engine produce power.
+                    </p>
+                    <img src="C:\Users\YazeD\Downloads\New folder (2)\download (10).jpg" alt="Piston photo">
+                </div>
+
+                <div class="part">
+                    <h3>2. Crankshaft</h3>
+                    <p>
+                        The crankshaft changes the piston's movement
+                        into rotation.
+                    </p>
+                    <img src="C:\Users\YazeD\Downloads\New folder (2)\download (11).jpg" alt="Crankshaft photo">
+                </div>
+
+                <div class="part">
+                    <h3>3. Spark Plug</h3>
+                    <p>
+                        In a petrol engine, the spark plug creates a spark
+                        to ignite the fuel and air mixture.
+                    </p>
+                    <img src="C:\Users\YazeD\Downloads\New folder (2)\download (15).jpg" alt="Spark plug photo">
+                </div>
+
+                <div class="part">
+                    <h3>4. Cylinder</h3>
+                    <p>
+                        The cylinder contains the piston and is where
+                        combustion takes place in a typical petrol engine.
+                    </p>
+                    <img src="C:\Users\YazeD\Downloads\New folder (2)\download (13).jpg" alt="Cylinder photo">
+                </div>
+
+                <div class="part">
+                    <h3>5. Camshaft</h3>
+                    <p>
+                        The camshaft helps open and close the engine valves
+                        at the right time.
+                    </p>
+                    <img src="C:\Users\YazeD\Downloads\New folder (2)\download (13).jpg" alt="Camshaft photo">
+                </div>
+
+                <div class="part">
+                    <h3>6. Valves</h3>
+                    <p>
+                        Valves let the air-fuel mixture enter and allow
+                        exhaust gases to leave the cylinder.
+                    </p>
+                    <img src="C:\Users\YazeD\Downloads\New folder (2)\download (14).jpg" alt="Engine valves photo">
+                </div>
+            </div>
+        </div>
+
+        <div class="box" id="add">
+            <div class="box-title">Add your parts</div>
+            <div class="content">
+                <h2>Add your engine photos</h2>
+                <p>
+                    Choose a photo from your computer and add it. You can also write a name and description.
+                </p>
+
+                <form id="photoForm">
+                    <label for="partName">Part name</label>
+                    <input type="text" id="partName"
+                           placeholder="Example: Engine block" required>
+
+                    <label for="partDescription">Description</label>
+                    <textarea id="partDescription" rows="3"
+                              placeholder="Write something about this part..."
+                              required></textarea>
+
+                    <label for="photoFile">Choose a photo</label>
+                    <input type="file" id="photoFile"
+                           accept="image/*" required>
+
+                    
+            </div>
+        </div>
+
+    </main>
+
+    
+
+    <script>
+        const form = document.getElementById("photoForm");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("partName").value;
+            const description =
+                document.getElementById("partDescription").value;
+            const file = document.getElementById("photoFile").files[0];
+
+            if (!file || !file.type.startsWith("image/")) {
+                return;
+            }
+
+            const reader = new FileReader();
+
+            reader.onload = function() {
+                const part = document.createElement("div");
+                part.className = "part";
+
+                const title = document.createElement("h3");
+                title.textContent = name;
+
+                const text = document.createElement("p");
+                text.textContent = description;
+
+                const image = document.createElement("img");
+                image.src = reader.result;
+                image.alt = name;
+
+                part.appendChild(title);
+                part.appendChild(text);
+                part.appendChild(image);
+
+                document.getElementById("myPhotos").appendChild(part);
+
+                form.reset();
+            };
+
+            reader.readAsDataURL(file);
+        });
+    </script>
+
+</body>
+</html>
